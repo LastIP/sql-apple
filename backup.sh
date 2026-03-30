@@ -72,6 +72,6 @@ if [ -d ".git" ]; then
 fi
 
 # Rclone 同步 (R2)
-#/usr/local/bin/rclone -P copy "$DIR" r2:mini/sql-aple/ --exclude "/.git/**" --quiet
+/usr/local/bin/rclone -P copy "$DIR" r2:mini/sql-apple/ --exclude "/.git/**" --quiet
 
 echo "======= 任务完成: $(date "+%Y-%m-%d %H:%M:%S") ======="
