@@ -17,6 +17,7 @@ DB_TASKS=(
     "postgres:azah_prod_db"
     "postgres:azah_dev_db"
     "postgres:azyt_db"
+    "postgres:azah_store_db"
 )
 
 # --- 2. 核心备份函数 ---
